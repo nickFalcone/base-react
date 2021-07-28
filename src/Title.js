@@ -1,4 +1,4 @@
-const component = (props) => {
+const Title = (props) => {
   return (
     <div>
       <h1>{props.title}</h1>
@@ -6,4 +6,4 @@ const component = (props) => {
   );
 };
 
-export default component;
+export default Title;

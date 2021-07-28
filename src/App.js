@@ -1,10 +1,12 @@
 import { render } from "react-dom";
-import Heading from "./Heading";
+import Title from "./Title";
 
 const App = () => {
   return (
     <div>
-      <Heading title="hello world" />
+      <Title title="Base React Template" />A template{" "}
+      <a href="https://github.com/nickFalcone/base-react">repo</a> for React
+      projects with ESLint, Prettier, and Babel already set up.
     </div>
   );
 };
