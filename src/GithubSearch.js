@@ -20,10 +20,11 @@ const GithubSearch = () => {
 
   return (
     <div>
-      <h2>Github Repo Search</h2>
+      <h2>Github Search</h2>
+      <p>Simple query for Github repositories</p>
       <form onSubmit={handleSubmit}>
         <label>
-          Search Repos: &nbsp;
+          Search Repos:&nbsp;
           <input type="text" onChange={handleChange} value={searchTerm} />
           &nbsp;
         </label>
